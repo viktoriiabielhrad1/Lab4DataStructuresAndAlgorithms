@@ -62,5 +62,19 @@ public class QueueArrayBased implements QueueInterface {
                               "Queue empty");
     }  // end if
   }  // end peek
+  
+  public void displayQueue() {
+	  if (isEmpty()) {
+		  System.out.println("The queue is empty");
+	  }
+	  else {
+		 System.out.print("Front-> ");
+		   for (int i = 0; i < count; i++) {
+			   int index = (front + i) %(MAX_QUEUE);
+			   System.out.print(items[index]);	   		   
+		   }//end of for
+		   System.out.println(" <-Back");
+	  }
+  }
    
 } // end QueueArrayBased
