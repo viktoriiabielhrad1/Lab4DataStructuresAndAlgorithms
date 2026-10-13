@@ -1,0 +1,24 @@
+commit 83feb0ec461cc43514d365a9f1d4f1587c8454cd
+Author: viktoriiabielhrad1 <belgradvika666@gmail.com>
+Date:   Tue Oct 13 22:01:32 2026 +0100
+
+    final commit - add all menu options, error handling, scanner input to
+    PrintServer
+
+commit b3820f7ae258805570ac8974fded5e2169d4cc9c
+Author: viktoriiabielhrad1 <belgradvika666@gmail.com>
+Date:   Tue Oct 13 13:48:51 2026 +0100
+
+    Add displayQueue method to QueueArrayBased
+
+commit 2a0789f6e244a0a06730d7f5dceb9b73712ee228
+Author: viktoriiabielhrad1 <belgradvika666@gmail.com>
+Date:   Tue Oct 13 13:15:52 2026 +0100
+
+    Add PrintJob class with id, doc_name, pages and toString
+
+commit 84adf299e995a2b60185ab11b3caaf2ab584eb0f
+Author: viktoriiabielhrad1 <belgradvika666@gmail.com>
+Date:   Tue Oct 13 12:40:17 2026 +0100
+
+    Initial Commit
